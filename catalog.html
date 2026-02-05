@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NoirFlix — Explore</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://image.tmdb.org" />
+  </head>
+  <body class="page-catalog">
+    <div class="app">
+      <header class="site-header">
+        <a class="logo" href="index.html">NoirFlix</a>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="catalog.html" class="active">Explore</a>
+          <a href="search.html">Search</a>
+          <a href="profile.html">Profile</a>
+        </nav>
+        <button class="cta">Subscribe</button>
+      </header>
+
+      <section class="catalog-hero">
+        <div>
+          <p class="eyebrow">Explore the archive</p>
+          <h1>Cinematic catalog</h1>
+          <p class="subhead">
+            Dive into hand-curated cinema legends with premium posters, ratings, and
+            immersive hover previews.
+          </p>
+        </div>
+        <div class="catalog-filters" id="catalogFilters"></div>
+      </section>
+
+      <section class="catalog-grid" id="catalogGrid"></section>
+
+      <footer class="site-footer">
+        <p>© 2025 NoirFlix Studios. A premium cinematic streaming experience.</p>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
